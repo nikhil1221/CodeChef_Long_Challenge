@@ -1,0 +1,6 @@
+Git Using
+
+git init  
+**Using this to initilize the project or the directory.this will make that particular folder to connect with the respository of the github
+
+git 
