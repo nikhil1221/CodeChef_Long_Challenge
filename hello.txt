@@ -3,4 +3,50 @@ Git Using
 git init  
 **Using this to initilize the project or the directory.this will make that particular folder to connect with the respository of the github
 
-git 
+git remote add origin "path address"
+**Connecting the repository with the particular local directory
+
+git pull origin "Branch name"
+**extract data from the Remot
+
+ Server and store it in local directory
+***Pull=fetch+merge;
+
+git fetch
+**only pulls the data but doesnot merge it with the existing data
+
+git status
+**Check teh status of the file which are not been uploaded in the remote server
+
+git add "file name"
+**adding the file to the index file so that when you push that particular file is attached 
+
+git add -A
+**Adding all the files to index 
+
+git commit -m "description"
+**Adding description so that when you upload it on the server it will take give the commit name
+****IMPORTANT do this because it pop the screen at the time of pushing back to remote server
+
+git branch "Name of that branch"
+**Creating new branch 
+
+git checkout "name of the branch"
+**going to another branch
+
+git checkout "first 6 hexa decimal code of the commit" "file name"
+**to check out the previous commited file
+
+git log 
+**to check the commit you have done yet
+
+git merge "branch which you want to merge"
+**this is use to merge the branch the destination branch is what you are currently on.
+***Each time you commit in the branch you have to merge  it.
+
+git rebase "branch name"
+**This is used to linearly attach the master or two branches linearly so that commits transfer directly
+
+
+ssh key-gen
+**generate SSh key to link computer with the id by matching previously stored private key in the computer with the public key from the account.
